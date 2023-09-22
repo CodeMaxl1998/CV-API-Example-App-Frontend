@@ -1,0 +1,93 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #F6F7F8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Title */
+h1 {
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  background-color: #FFF;
+  border-bottom: 1px solid #CCC;
+}
+
+/* Sub Titles */
+h3 {
+  margin: 0;
+  padding: 20px 20px 10px;
+  color: #333;
+}
+
+/* List of Applicants and Details */
+.details-section,
+.ApplicantsPage div {
+  background-color: #FFF;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional Padding for each section */
+.details-section {
+  padding: 30px;
+}
+
+/* Styling for list items in details */
+.details-section ul,
+.ApplicantsPage ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.details-section li,
+.ApplicantsPage li {
+  padding: 8px 0;
+  border-bottom: 1px solid #EEE;
+}
+
+/* Remove border for the last list item */
+.details-section li:last-child,
+.ApplicantsPage li:last-child {
+  border-bottom: none;
+}
+
+.notes-header {
+  display: flex;
+}
+
+.notes-header button {
+  margin: auto;
+}
+
+/* Notes and Buttons */
+.details-section button,
+.ApplicantsPage button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  border: #007BFF 1px solid;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: #FFF;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.details-section button:hover,
+.details-section button.secondary:hover,
+.ApplicantsPage button:hover {
+  background-color: #0056b3;
+  color: #FFF;
+}
+
+.details-section button.secondary {
+  color: #007BFF;
+  background-color: #FFF;
+  border: #007BFF 1px solid;
+  border-radius: 5px;
+}
